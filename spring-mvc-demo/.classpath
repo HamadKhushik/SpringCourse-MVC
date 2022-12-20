@@ -82,5 +82,12 @@
 	<classpathentry kind="lib" path="C:/Users/Hammad/Documents/Programming/Spring Udemy/spring-mvc-project files/spring-mvc/starter-files/spring-mvc-demo/lib/commons-logging-1.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Hammad/Documents/Programming/Spring Udemy/spring-mvc-project files/spring-mvc/starter-files/spring-mvc-demo/lib/javax.servlet.jsp.jstl-1.2.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Hammad/Documents/Programming/Spring Udemy/spring-mvc-project files/spring-mvc/starter-files/spring-mvc-demo/lib/javax.servlet.jsp.jstl-api-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hammad/Documents/Programming/Spring Udemy/Hibernate/dist/hibernate-validator-6.2.5.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hammad/Documents/Programming/Spring Udemy/Hibernate/dist/hibernate-validator-annotation-processor-6.2.5.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hammad/Documents/Programming/Spring Udemy/Hibernate/dist/hibernate-validator-cdi-6.2.5.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hammad/Documents/Programming/Spring Udemy/Hibernate/dist/lib/required/classmate-1.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hammad/Documents/Programming/Spring Udemy/Hibernate/dist/lib/required/jakarta.el-3.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hammad/Documents/Programming/Spring Udemy/Hibernate/dist/lib/required/jakarta.validation-api-2.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hammad/Documents/Programming/Spring Udemy/Hibernate/dist/lib/required/jboss-logging-3.4.1.Final.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
