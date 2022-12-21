@@ -6,6 +6,8 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 
+import com.springdemo.mvc.validation.CourseCode;
+
 public class Customer {
 	
 	private String firstName;
@@ -21,6 +23,9 @@ public class Customer {
 	
 	@Pattern(regexp="^[a-zA-Z0-9 ]{6,8}", message="upto 8 characters including space character")
 	private String postCode;
+	
+	@CourseCode(value="TOPS", message="must start with TOPS")
+	private String courseCode;
 
 	public String getFirstName() {
 		return firstName;
@@ -53,5 +58,14 @@ public class Customer {
 	public void setPostCode(String postalCode) {
 		this.postCode = postalCode;
 	}
+
+	public String getCourseCode() {
+		return courseCode;
+	}
+
+	public void setCourseCode(String courseCode) {
+		this.courseCode = courseCode;
+	}
+	
 	
 }

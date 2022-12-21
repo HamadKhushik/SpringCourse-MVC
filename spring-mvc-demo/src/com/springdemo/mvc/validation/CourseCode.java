@@ -11,7 +11,7 @@ import java.lang.annotation.Target;
 import javax.validation.Constraint;
 import javax.validation.Payload;
 
-@Constraint(validateBy = CourseCodeConstraintCalidator.class)
+@Constraint(validatedBy = CourseCodeConstraintValidator.class)
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.METHOD, ElementType.FIELD})
 public @interface CourseCode {
